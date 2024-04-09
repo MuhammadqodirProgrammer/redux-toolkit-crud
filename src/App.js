@@ -22,7 +22,7 @@ function App() {
 				Redux-toolkit misollarni ko'rish uchun bosing
 			</button>
 			<button
-				style={{ backgroundColor: choose ? 'teal' : '' }}
+				style={{ backgroundColor: !choose ? 'teal' : '' }}
 				onClick={() => setChoose(false)}
 			>
 				Hook larni ko'rish uchun bosing
